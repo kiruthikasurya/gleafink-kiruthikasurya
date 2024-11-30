@@ -1,0 +1,26 @@
+version: '3.7'
+
+services:
+  server:
+    build:
+      context: .  # Use the root directory as the build context
+      dockerfile: server/Dockerfile  # Specify the backend Dockerfile
+    ports:
+      - "4000:4000"  # Expose backend server on port 4000
+    volumes:
+      - ./server:/usr/src/app  # Mount the server code for development (optional)
+    environment:
+      - NODE_ENV=production  # Set environment variable for Node.js (optional)
+    depends_on:
+      - client  # Ensure the frontend is up before the backend
+
+  client:
+    build:
+      context: .  # Use the root directory as the build context
+      dockerfile: client/Dockerfile  # Specify the frontend Dockerfile
+    ports:
+      - "3000:3000"  # Expose frontend server on port 3000
+    volumes:
+      - ./client:/usr/src/app  # Mount the client code for development (optional)
+    environment:
+      - CHOKIDAR_USEPOLLING=true  # Ensure React runs smoothly with Docker

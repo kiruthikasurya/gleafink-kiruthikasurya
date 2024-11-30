@@ -1,0 +1,60 @@
+{
+  "users": [
+    {
+      "id": 1,
+      "email": "testuser@gmail.com",
+      "password": "password123",
+      "accessToken": "eyJhbGciOi...your.jwt.token",
+      "refreshToken": "eyJhbGciOi...your.refresh.token"
+    },
+    {
+      "id": 2,
+      "email": "testuser1@gmail.com",
+      "password": "admin123",
+      "accessToken": "eyJhbGciOi...admin.jwt.token",
+      "refreshToken": "eyJhbGciOi...admin.refresh.token"
+    },
+    {
+      "id": 1,
+      "email": "testuser2@gmail.com",
+      "password": "testuser2",
+      "accessToken": "eyJhbGciOi...your.jwt.token",
+      "refreshToken": "eyJhbGciOi...your.refresh.token"
+    },
+    {
+      "id": 2,
+      "email": "testuser3@gmail.com",
+      "password": "testuser3",
+      "accessToken": "eyJhbGciOi...admin.jwt.token",
+      "refreshToken": "eyJhbGciOi...admin.refresh.token"
+    },
+    {
+      "id": 1,
+      "email": "testuser4@gmail.com",
+      "password": "testuser4",
+      "accessToken": "eyJhbGciOi...your.jwt.token",
+      "refreshToken": "eyJhbGciOi...your.refresh.token"
+    },
+    {
+      "id": 2,
+      "email": "testuser5@gmail.com",
+      "password": "testuser5",
+      "accessToken": "eyJhbGciOi...admin.jwt.token",
+      "refreshToken": "eyJhbGciOi...admin.refresh.token"
+    },
+    {
+      "id": 1,
+      "email": "testuser6@gmail.com",
+      "password": "testuser6",
+      "accessToken": "eyJhbGciOi...your.jwt.token",
+      "refreshToken": "eyJhbGciOi...your.refresh.token"
+    },
+    {
+      "id": 2,
+      "email": "testuser7@gmail.com",
+      "password": "testuser7",
+      "accessToken": "eyJhbGciOi...admin.jwt.token",
+      "refreshToken": "eyJhbGciOi...admin.refresh.token"
+    }
+  ]
+}
